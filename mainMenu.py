@@ -49,7 +49,7 @@ button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: open(Multyplayer),
+    command=lambda: Multyplayer.Multytictactoe(),
     relief="flat"
 )
 button_2.place(
