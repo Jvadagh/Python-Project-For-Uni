@@ -1,7 +1,7 @@
 from pathlib import Path
 from tkinter import *
-
-import Multyplayer
+import os
+# import Multyplayer
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path("./assets")
@@ -49,7 +49,8 @@ button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: Multyplayer.Multytictactoe(),
+    command=lambda: os.system('python Multyplayer.py')
+,
     relief="flat"
 )
 button_2.place(
@@ -65,7 +66,7 @@ button_3 = Button(
     image=button_image_3,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: print('button_3 clicked'),
+    command=lambda: os.system('python Singleplayer.py'),
     relief="flat"
 )
 button_3.place(
