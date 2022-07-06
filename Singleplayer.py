@@ -4,6 +4,9 @@ from functools import partial
 from tkinter import messagebox
 from copy import deepcopy
 
+# import Multyplayer
+# import Function tools
+
 # sign variable to decide the turn of which player
 sign = 0
 

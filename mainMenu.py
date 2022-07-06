@@ -1,7 +1,10 @@
 from pathlib import Path
 from tkinter import *
 import os
-# import Multyplayer
+
+# import os
+# import tkinter
+
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path("./assets")
